@@ -4,21 +4,12 @@ A fully interactive, tabbed FAQ dashboard built entirely with vanilla JavaScript
 
 ## Table of Contents
 - [Demo](#demo)
-- [Features](#features)
 - [Tech Stack](#tech-stack)
-- [JavaScript Architecture](#javascript-architecture)
 - [Project Structure](#project-structure)
 - [Author](#author)
 
 ## Demo
-[Live Demo]() 
-
-## Features
-- **Categorized Tabs:** Dynamically switch between "Variables", "DOM", "Functions", and "Advanced" categories without reloading the page.
-- **State-Driven Accordion:** Click a question to smoothly slide open the answer. Opening one automatically closes the others.
-- **Dynamic Height Calculation:** The accordion uses JavaScript to calculate the exact pixel height of the hidden text before animating, bypassing the CSS `height: auto` animation limitation.
-- **Active State UI:** Tabs and accordion icons dynamically update their styling (red accents and rotations) based on user interaction.
-- **Premium Dark UI:** Built with a custom dark slate and crimson red color palette.
+[Live Demo](https://ali-mirzaei-dev.github.io/FAQ-Accordion/) 
 
 ## Tech Stack
 
