@@ -1,4 +1,3 @@
-
 const li = document.querySelectorAll("nav>ul>li")
 const category = document.querySelectorAll(".category")
 
@@ -26,8 +25,6 @@ li.forEach((val) => {
         // ------- Show List
         val.classList.add("text-[#D3D6DB]!")
         val.classList.add("bg-[#3A4750]")
-
-
     })
 })
 
@@ -67,7 +64,6 @@ openBtn.forEach((val, r) => {
             val.nextElementSibling.setAttribute("data-status", "off")
             val.children[1].classList.remove("rotate-180")
         }
-
     })
 })
 
@@ -77,8 +73,3 @@ category.forEach((val, i) => {
         val.classList.add("hidden")
     }
 })
-
-
-
-
-
