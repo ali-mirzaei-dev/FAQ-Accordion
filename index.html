@@ -23,7 +23,7 @@
     <!-- Tabs Container -->
     <nav class="flex flex-wrap justify-center gap-2 md:gap-4 mb-12 border-b border-[#3A4750] pb-4 w-full max-w-3xl">
         <ul class="flex flex-wrap justify-center gap-2 md:gap-4">
-            <li data-index="0" class="px-4 py-2 rounded-md text-sm font-bold uppercase tracking-wider text-[#D3D6DB]/50 hover:text-[#D3D6DB] hover:bg-[#3A4750] transition-colors cursor-pointer">Variables</li>
+            <li data-index="0" class="px-4 py-2 rounded-md text-sm font-bold uppercase tracking-wider text-[#D3D6DB]/50 text-[#D3D6DB]! bg-[#3A4750] hover:text-[#D3D6DB] hover:bg-[#3A4750] transition-colors cursor-pointer">Variables</li>
             <li data-index="1" class="px-4 py-2 rounded-md text-sm font-bold uppercase tracking-wider text-[#D3D6DB]/50 hover:text-[#D3D6DB] hover:bg-[#3A4750] transition-colors cursor-pointer">DOM</li>
             <li data-index="2" class="px-4 py-2 rounded-md text-sm font-bold uppercase tracking-wider text-[#D3D6DB]/50 hover:text-[#D3D6DB] hover:bg-[#3A4750] transition-colors cursor-pointer">Functions</li>
             <li data-index="3" class="px-4 py-2 rounded-md text-sm font-bold uppercase tracking-wider text-[#D3D6DB]/50 hover:text-[#D3D6DB] hover:bg-[#3A4750] transition-colors cursor-pointer">Advanced</li>
@@ -31,10 +31,10 @@
     </nav>
 
     <!-- FAQ Content Area -->
-    <main class="w-full max-w-3xl flex flex-col gap-4">
+    <main class="w-full max-w-3xl flex flex-col gap-4 **:duration-700">
 
         <!-- ================= VARIABLES CATEGORY ================= -->
-        <div class="flex flex-col gap-4 category">
+        <div class="flex flex-col gap-4 category ">
 
             <!-- Q 1 -->
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
@@ -44,7 +44,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     var is function-scoped and legacy. let is block-scoped and reassignable. const is block-scoped and cannot be reassigned. Always use const unless you need to reassign the value later.
                 </span>
             </div>
@@ -57,7 +57,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     Hoisting is JavaScript's default behavior of moving variable and function declarations to the top of their current scope before code execution.
                 </span>
             </div>
@@ -70,7 +70,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     Template literals are strings defined with backticks (`) that allow for multi-line strings and string interpolation (embedding variables directly using ${variable}).
                 </span>
             </div>
@@ -83,7 +83,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     == checks for equality after performing type coercion (e.g., 5 == "5" is true). === checks for strict equality without type coercion (e.g., 5 === "5" is false). Always use ===.
                 </span>
             </div>
@@ -96,14 +96,14 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex  ">
                     Primitives are basic data types that are not objects and have no methods. JavaScript has 7: String, Number, Boolean, Null, Undefined, Symbol, and BigInt.
                 </span>
             </div>
         </div>
 
         <!-- ================= DOM CATEGORY ================= -->
-        <div class="hidden flex-col gap-4 category">
+        <div class="flex flex-col gap-4 category">
 
             <!-- Q 1 -->
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
@@ -113,7 +113,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     The Document Object Model (DOM) is a programming interface for HTML documents. It represents the page so that programs can change the document structure, style, and content.
                 </span>
             </div>
@@ -126,7 +126,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     getElementById is faster but strictly looks for an element by its ID. querySelector uses CSS selectors (like classes, tags, or IDs) and returns the first matching element.
                 </span>
             </div>
@@ -139,7 +139,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     Event bubbling means that when an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
                 </span>
             </div>
@@ -152,7 +152,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     You use the event.preventDefault() method inside your event listener to stop the default action (like stopping a form from refreshing the page).
                 </span>
             </div>
@@ -165,14 +165,14 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     innerHTML parses the string as HTML and can execute scripts (security risk). textContent treats everything as plain text and is much safer and faster for reading or writing text.
                 </span>
             </div>
         </div>
 
         <!-- ================= FUNCTIONS CATEGORY ================= -->
-        <div class="hidden flex-col gap-4 category">
+        <div class="flex flex-col gap-4 category">
 
             <!-- Q 1 -->
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
@@ -182,7 +182,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     An arrow function (() => {}) is a modern, shorter syntax for writing JavaScript functions. It does not bind its own `this` keyword, which solves many scope-related bugs.
                 </span>
             </div>
@@ -195,7 +195,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     A callback is a function passed as an argument to another function, which is then invoked inside the outer function to complete some kind of routine or action.
                 </span>
             </div>
@@ -208,7 +208,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     The return statement ends the execution of a function and returns a value from that function back to the place where it was called.
                 </span>
             </div>
@@ -221,7 +221,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     Default parameters allow named function parameters to be initialized with default values if no value or undefined is passed into the function.
                 </span>
             </div>
@@ -234,14 +234,14 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     An IIFE is a function that runs as soon as it is defined. It is wrapped in parentheses to create a function expression, and followed by () to execute it immediately.
                 </span>
             </div>
         </div>
 
         <!-- ================= ADVANCED CATEGORY ================= -->
-        <div class="hidden flex-col gap-4 category">
+        <div class="flex flex-col gap-4 category">
 
             <!-- Q 1 -->
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
@@ -251,7 +251,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     forEach executes a function for each array element but returns undefined. map creates a brand new array with the results of the function applied to each element.
                 </span>
             </div>
@@ -264,7 +264,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to write handlers that wait for a result without freezing the whole program.
                 </span>
             </div>
@@ -277,7 +277,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     Destructuring is a syntax that allows you to unpack values from arrays, or properties from objects, into distinct variables very quickly (e.g., const { name } = user;).
                 </span>
             </div>
@@ -290,7 +290,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     The spread operator (...) allows an iterable like an array or string to be expanded in places where zero or more arguments or elements are expected.
                 </span>
             </div>
@@ -303,7 +303,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
                     </svg>
                 </button>
-                <span class="px-5 pb-5 text-[#D3D6DB]/70 leading-relaxed hidden ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     LocalStorage allows you to save key-value pairs in the browser so that data persists even when the page is refreshed or the browser is closed. It has no expiration date.
                 </span>
             </div>
@@ -312,6 +312,77 @@
     </main>
 
 </body>
+<script>
 
+    const li = document.querySelectorAll("nav>ul>li")
+    const category = document.querySelectorAll(".category")
+
+    // ------- CATEGORY SELECTOR ------- //
+    li.forEach((val) => {
+        val.addEventListener("click", () => {
+
+            // ------- Reset List
+            li.forEach((eachLi) => {
+                eachLi.classList.remove("text-[#D3D6DB]!")
+                eachLi.classList.remove("bg-[#3A4750]")
+            })
+
+            // ------- Reset Category
+            category.forEach((eachCat) => {
+                eachCat.classList.add("hidden")
+                eachCat.classList.remove("flex")
+            })
+
+            // ------- Show Category
+            let index = val.getAttribute("data-index")
+            category[index].classList.remove("hidden")
+            category[index].classList.add("flex")
+
+            // ------- Show List
+            val.classList.add("text-[#D3D6DB]!")
+            val.classList.add("bg-[#3A4750]")
+
+
+        })
+    })
+
+
+    // ------- ACCORDION ------- //
+    const openBtn = document.querySelectorAll("main>div>div>button")
+
+    openBtn.forEach((val) => {
+
+        // ------- Grab height then close the answers  
+        val.nextElementSibling.setAttribute("data-h", val.nextElementSibling.clientHeight)
+        let tempHeight = val.nextElementSibling.getAttribute("data-h")
+        val.nextElementSibling.style.height = "0px"
+
+        val.addEventListener("click", () => {
+
+            // ------- Reset Accordion
+            openBtn.forEach((eachBtn) => {
+                eachBtn.nextElementSibling.style.height = "0px"
+            })
+
+            // ------- Show Accordion
+            val.nextElementSibling.style.height = tempHeight + "px"
+        })
+    })
+
+    // ------- CATEGORY CLOSER ------- //
+    category.forEach((val, i) => {
+        if (i != 0) {
+            val.classList.add("hidden")
+        }
+    })
+
+
+
+
+
+
+
+
+</script>
 
 </html>
