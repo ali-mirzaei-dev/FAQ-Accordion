@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript FAQ Dashboard</title>
     <link rel="stylesheet" href="assets/StyleSheet/output.css">
+    <link rel="stylesheet" href="assets/Font/font/style.css">
 </head>
 
 <body class="bg-[#303841] text-[#D3D6DB] font-sans flex flex-col items-center px-6 py-16">
@@ -40,9 +41,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is the difference between var, let, and const?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     var is function-scoped and legacy. let is block-scoped and reassignable. const is block-scoped and cannot be reassigned. Always use const unless you need to reassign the value later.
@@ -53,9 +53,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What does "hoisting" mean?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     Hoisting is JavaScript's default behavior of moving variable and function declarations to the top of their current scope before code execution.
@@ -66,9 +65,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What are template literals?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     Template literals are strings defined with backticks (`) that allow for multi-line strings and string interpolation (embedding variables directly using ${variable}).
@@ -79,9 +77,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is the difference between == and ===?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     == checks for equality after performing type coercion (e.g., 5 == "5" is true). === checks for strict equality without type coercion (e.g., 5 === "5" is false). Always use ===.
@@ -92,11 +89,10 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is a primitive data type?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
-                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex  ">
+                <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex">
                     Primitives are basic data types that are not objects and have no methods. JavaScript has 7: String, Number, Boolean, Null, Undefined, Symbol, and BigInt.
                 </span>
             </div>
@@ -109,9 +105,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is the DOM?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     The Document Object Model (DOM) is a programming interface for HTML documents. It represents the page so that programs can change the document structure, style, and content.
@@ -122,9 +117,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">Difference between querySelector and getElementById?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     getElementById is faster but strictly looks for an element by its ID. querySelector uses CSS selectors (like classes, tags, or IDs) and returns the first matching element.
@@ -135,9 +129,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is Event Bubbling?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     Event bubbling means that when an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
@@ -148,9 +141,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">How do you prevent default event behavior?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     You use the event.preventDefault() method inside your event listener to stop the default action (like stopping a form from refreshing the page).
@@ -161,9 +153,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is the difference between innerHTML and textContent?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     innerHTML parses the string as HTML and can execute scripts (security risk). textContent treats everything as plain text and is much safer and faster for reading or writing text.
@@ -178,9 +169,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is an Arrow Function?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     An arrow function (() => {}) is a modern, shorter syntax for writing JavaScript functions. It does not bind its own `this` keyword, which solves many scope-related bugs.
@@ -191,9 +181,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is a callback function?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     A callback is a function passed as an argument to another function, which is then invoked inside the outer function to complete some kind of routine or action.
@@ -204,9 +193,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What does "return" do in a function?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     The return statement ends the execution of a function and returns a value from that function back to the place where it was called.
@@ -217,9 +205,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What are Default Parameters?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     Default parameters allow named function parameters to be initialized with default values if no value or undefined is passed into the function.
@@ -230,9 +217,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is an IIFE (Immediately Invoked Function Expression)?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     An IIFE is a function that runs as soon as it is defined. It is wrapped in parentheses to create a function expression, and followed by () to execute it immediately.
@@ -247,9 +233,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is the difference between map and forEach?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     forEach executes a function for each array element but returns undefined. map creates a brand new array with the results of the function applied to each element.
@@ -260,9 +245,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What are Promises in JavaScript?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     A Promise is an object representing the eventual completion or failure of an asynchronous operation. It allows you to write handlers that wait for a result without freezing the whole program.
@@ -273,9 +257,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is Destructuring?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     Destructuring is a syntax that allows you to unpack values from arrays, or properties from objects, into distinct variables very quickly (e.g., const { name } = user;).
@@ -286,9 +269,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is the Spread Operator?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     The spread operator (...) allows an iterable like an array or string to be expanded in places where zero or more arguments or elements are expected.
@@ -299,9 +281,8 @@
             <div class="bg-[#3A4750] border border-[#D3D6DB]/10 rounded-lg overflow-hidden hover:border-[#BE3144] transition-colors">
                 <button class="w-full flex justify-between items-center p-5 text-left cursor-pointer">
                     <span class="font-bold text-base text-[#D3D6DB]">What is LocalStorage used for?</span>
-                    <svg class="w-5 h-5 text-[#BE3144] transition-transform duration-300 shrink-0 ml-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
-                    </svg>
+                    <span class="icon text-2xl text-[#BE3144]"></span>
+
                 </button>
                 <span class="px-5 text-[#D3D6DB]/70 leading-relaxed flex ">
                     LocalStorage allows you to save key-value pairs in the browser so that data persists even when the page is refreshed or the browser is closed. It has no expiration date.
@@ -312,77 +293,6 @@
     </main>
 
 </body>
-<script>
-
-    const li = document.querySelectorAll("nav>ul>li")
-    const category = document.querySelectorAll(".category")
-
-    // ------- CATEGORY SELECTOR ------- //
-    li.forEach((val) => {
-        val.addEventListener("click", () => {
-
-            // ------- Reset List
-            li.forEach((eachLi) => {
-                eachLi.classList.remove("text-[#D3D6DB]!")
-                eachLi.classList.remove("bg-[#3A4750]")
-            })
-
-            // ------- Reset Category
-            category.forEach((eachCat) => {
-                eachCat.classList.add("hidden")
-                eachCat.classList.remove("flex")
-            })
-
-            // ------- Show Category
-            let index = val.getAttribute("data-index")
-            category[index].classList.remove("hidden")
-            category[index].classList.add("flex")
-
-            // ------- Show List
-            val.classList.add("text-[#D3D6DB]!")
-            val.classList.add("bg-[#3A4750]")
-
-
-        })
-    })
-
-
-    // ------- ACCORDION ------- //
-    const openBtn = document.querySelectorAll("main>div>div>button")
-
-    openBtn.forEach((val) => {
-
-        // ------- Grab height then close the answers  
-        val.nextElementSibling.setAttribute("data-h", val.nextElementSibling.clientHeight)
-        let tempHeight = val.nextElementSibling.getAttribute("data-h")
-        val.nextElementSibling.style.height = "0px"
-
-        val.addEventListener("click", () => {
-
-            // ------- Reset Accordion
-            openBtn.forEach((eachBtn) => {
-                eachBtn.nextElementSibling.style.height = "0px"
-            })
-
-            // ------- Show Accordion
-            val.nextElementSibling.style.height = tempHeight + "px"
-        })
-    })
-
-    // ------- CATEGORY CLOSER ------- //
-    category.forEach((val, i) => {
-        if (i != 0) {
-            val.classList.add("hidden")
-        }
-    })
-
-
-
-
-
-
-
-
-</script>
+<script src="assets/JavaScript/main.js"></script>
 
 </html>
